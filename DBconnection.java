@@ -8,8 +8,8 @@ public class DBconnection {
     public static Connection createConnection(){
         try{
             String url="jdbc:mysql://localhost:3306/library";
-            String username="root";
-            String password="ZeibshaikhA@16";
+            String username="Your_Mysql_Username";
+            String password="Your_Mysql_Password";
             con= DriverManager.getConnection(url,username,password);
         }catch(Exception e){
             e.printStackTrace();
